@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de projet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestion de projet simplifiée</h1>
+    </header>
+    <main>
+        <div id="board">
+            <div class="column" data-status="todo">
+                <h2>À faire</h2>
+                <div class="task-list"></div>
+                <button class="add-task">+ Ajouter une tâche</button>
+            </div>
+            <div class="column" data-status="in-progress">
+                <h2>En cours</h2>
+                <div class="task-list"></div>
+            </div>
+            <div class="column" data-status="done">
+                <h2>Terminé</h2>
+                <div class="task-list"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
